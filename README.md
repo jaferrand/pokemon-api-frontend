@@ -1,27 +1,44 @@
-# PokemonApi
+Pokémon API Frontend
+Este proyecto, pokemon-api-frontend, es una aplicación Angular que proporciona una interfaz de usuario para explorar y descubrir información sobre Pokémon. Utiliza una API externa para obtener datos y presenta una lista de Pokémon y detalles individuales para cada uno.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.3.
+Características
+Lista de Pokémon: Visualiza una lista completa de Pokémon con opciones de paginación.
+Detalles de Pokémon: Accede a una página detallada para cada Pokémon que muestra estadísticas, habilidades y más.
+Interfaz de Usuario: Una interfaz limpia y amigable para una óptima experiencia de usuario.
+Estructura del Proyecto
+El proyecto incluye los siguientes directorios y archivos clave:
 
-## Development server
+src/app: Contiene todos los componentes de la aplicación.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+pokemon-details: Componente para mostrar los detalles de un Pokémon específico.
 
-## Code scaffolding
+pokemon-list: Componente para listar los Pokémon y manejar la paginación.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+app.component.html: Plantilla principal de la aplicación.
 
-## Build
+app.component.ts: Componente principal de la aplicación.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+captured-pokemon.service.ts: Servicio para manejar los Pokémon capturados.
 
-## Running unit tests
+pokemon.ts: Modelo para definir la estructura de datos de un Pokémon.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
+angular.json: Configuración del proyecto Angular.
+package.json y package-lock.json: Configuración y dependencias del proyecto Node.
+Instalación y Ejecución
+Requisitos
+Node.js y npm instalados.
+Instalación
+Descarga el repositorio:
+https://github.com/jaferrand/pokemon-api-frontend.git
+Clona el repositorio:
+git clone https://github.com/tu-usuario/pokemon-api-frontend.git
+Instala las dependencias del proyecto:
+npm install
+Inicia el servidor de desarrollo:
+ng serve
+Visita http://localhost:4200/ en tu navegador para ver la aplicación.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Construcción
+Ejecuta ng build --prod para construir la versión de producción de la aplicación. Los artefactos se almacenarán en el directorio dist/.
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.

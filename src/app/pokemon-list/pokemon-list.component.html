@@ -1,0 +1,15 @@
+<div class="pokemon-list">
+    <h2>Lista de Pokémon</h2>
+  
+    <ul>
+      <li *ngFor="let pokemon of pokemons">
+        <div class="pokemon-card">
+          <img src="{{ pokemon.imageUrl }}" alt="{{ pokemon.name }}">
+          <h3>{{ pokemon.name }}</h3>
+  
+          <p>ID: {{ pokemon.id }}</p>
+        </div>
+      </li>
+    </ul>
+  </div>
+  
