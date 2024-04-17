@@ -24,21 +24,34 @@ pokemon.ts: Modelo para definir la estructura de datos de un Pokémon.
 
 
 angular.json: Configuración del proyecto Angular.
+
 package.json y package-lock.json: Configuración y dependencias del proyecto Node.
+
 Instalación y Ejecución
+
 Requisitos
+
 Node.js y npm instalados.
+
 Instalación
+
 Descarga el repositorio:
 https://github.com/jaferrand/pokemon-api-frontend.git
+
 Clona el repositorio:
 git clone https://github.com/tu-usuario/pokemon-api-frontend.git
+
 Instala las dependencias del proyecto:
+
 npm install
+
 Inicia el servidor de desarrollo:
+
 ng serve
+
 Visita http://localhost:4200/ en tu navegador para ver la aplicación.
 
 Construcción
-Ejecuta ng build --prod para construir la versión de producción de la aplicación. Los artefactos se almacenarán en el directorio dist/.
+
+Ejecuta ng build --prod para construir la versión de producción de la aplicación.
 
